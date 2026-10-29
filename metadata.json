@@ -1,0 +1,6 @@
+{
+  "name": "Om Dental Clinic & Implant Center - Nikol, Ahmedabad",
+  "description": "Premium business website for Om Dental Clinic & Implant Center in Nikol, Ahmedabad, featuring advanced dental treatments, interactive 3D tooth visualization, WhatsApp appointment booking, and verified clinic details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
