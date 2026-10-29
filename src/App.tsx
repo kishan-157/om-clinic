@@ -15,15 +15,20 @@ import { Footer } from './components/Footer';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 import { ClinicConfigModal } from './components/ClinicConfigModal';
 
-const STORAGE_KEY = 'om_dental_clinic_config_v1';
+const STORAGE_KEY = 'om_dental_clinic_config_v2';
 const LANG_STORAGE_KEY = 'om_dental_clinic_lang_v1';
 
 export default function App() {
   const [config, setConfig] = useState<BusinessConfig>(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(STORAGE_KEY) || localStorage.getItem('om_dental_clinic_config_v1');
       if (saved) {
-        return { ...DEFAULT_BUSINESS_CONFIG, ...JSON.parse(saved) };
+        const parsed = JSON.parse(saved);
+        if (parsed.whatsappNumber === '919712396396') {
+          parsed.whatsappNumber = '919724852137';
+          parsed.phoneDisplay = '+91 97248 52137';
+        }
+        return { ...DEFAULT_BUSINESS_CONFIG, ...parsed };
       }
     } catch {
       // ignore

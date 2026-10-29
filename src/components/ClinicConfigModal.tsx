@@ -135,7 +135,7 @@ export const ClinicConfigModal: React.FC<Props> = ({
               className="w-full px-3.5 py-2.5 rounded-xl bg-neutral-900 border border-white/10 text-white font-mono focus:outline-none focus:border-amber-400"
             />
             <p className="text-[11px] text-neutral-400">
-              Format: <code>919712396396</code> (91 for India + 10-digit number)
+              Format: <code>919724852137</code> (91 for India + 10-digit number)
             </p>
           </div>
 

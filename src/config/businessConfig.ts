@@ -91,8 +91,8 @@ export const DEFAULT_BUSINESS_CONFIG: BusinessConfig = {
   subtitle: "Advanced dental care for cosmetic precision, comfort and modern technology in Nikol, Ahmedabad.",
   subtitleGu: "નિકોલ, અમદાવાદમાં આધુનિક ટેકનોલોજી, સંપૂર્ણ આરામ અને અનુભવી ડૉક્ટર્સ દ્વારા વિશેષ ડેન્ટલ સારવાર.",
   status: "verified",
-  phoneDisplay: "+91 97123 96396",
-  whatsappNumber: "919712396396",
+  phoneDisplay: "+91 97248 52137",
+  whatsappNumber: "919724852137",
   address: {
     line1: "Shop No. A/6, Panchratna Avenue",
     line1Gu: "દુકાન નં. A/6, પંચરત્ન એવન્યુ",
